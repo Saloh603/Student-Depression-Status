@@ -16,10 +16,12 @@ To set up this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/student-depression-status.git
-   cd student-depression-status```
+   cd student-depression-status
+   ```
 2. Install required Python libraries:
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 To use the API, you need to send a JSON payload with the student's data. Below is an example of how to use the API with Python:
@@ -40,7 +42,8 @@ To use the API, you need to send a JSON payload with the student's data. Below i
   }
   
   response = requests.post(url, json=payload)
-  print("Depression Index Level:", response.json())```
+  print("Depression Index Level:", response.json())
+```
 
 ## Model Details
 This section explains the criteria and the methodology used for training the model along with its accuracy and performance metrics. (Please include specifics about the model training, data used, evaluation metrics, etc.)
